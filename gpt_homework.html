@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Picture Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            padding: 20px;
+            background-color: #f5a623;
+            margin: 0;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .picture {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .picture img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .picture-caption {
+            padding: 10px;
+            text-align: center;
+            background-color: #4682b4;
+            color: #fff;
+            border-radius: 0 0 8px 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Picture Gallery</h1>
+    <div class="gallery">
+        <div class="picture">
+            <img src="https://via.placeholder.com/300" alt="Picture 1">
+            <div class="picture-caption">Picture 1</div>
+        </div>
+        <div class="picture">
+            <img src="https://via.placeholder.com/300" alt="Picture 2">
+            <div class="picture-caption">Picture 2</div>
+        </div>
+        <div class="picture">
+            <img src="https://via.placeholder.com/300" alt="Picture 3">
+            <div class="picture-caption">Picture 3</div>
+        </div>
+        <div class="picture">
+            <img src="https://via.placeholder.com/300" alt="Picture 4">
+            <div class="picture-caption">Picture 4</div>
+        </div>
+        <div class="picture">
+            <img src="https://via.placeholder.com/300" alt="Picture 5">
+            <div class="picture-caption">Picture 5</div>
+        </div><a href="p1.html">back to my page</a>
+    </div>
+</body>
+</html>
